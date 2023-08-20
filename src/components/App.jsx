@@ -50,7 +50,7 @@ export class App extends Component  {
 
     return (
       
-      <Box width='400px' pl='8px'>
+      <Box width='400px' pl='16px'>
         <Section title={'Phonebook'}>
         
           <ContactForm onSubmit={this.formSubmitHandler} contacts={ contacts} />
