@@ -24,7 +24,7 @@ class ContactForm extends Component{
              alert(`${name} is already in Contacts`);
              return
          }
-         const contact = { id: this.nameInputId, name, number }
+         const contact = { id: nanoid(), name, number }
          this.props.onSubmit(contact)
          resetForm();
    
